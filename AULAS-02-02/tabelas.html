@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ept-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <table border="1"><!--Tag para tabela-->
+        <caption>Usuário</caption><!--Título (nome) da Tabela-->
+        <tr><!--linha da tabela-->
+            <th>Nome</th><!--Título das colunas-->
+            <th>Idade</th>
+            <th>CPF</th>
+            <Th>sexo</Th>
+        </tr>
+        <tr>
+            <td>Nubia</td><!--td é p conteúdo, dados da tabela-->
+            <td>00</td>
+            <td>000.000.000-oo</td>
+            <td>F</td>
+        </tr>
+            <td>Denise</td>
+            <td>00</td>
+            <td>000.000.000-oo</td>
+            <td>F</td>
+        <tr>
+            <td>Denise</td>
+            <td>00</td>
+            <td>000.000.000-oo</td>
+            <td>F</td>
+        </tr>
+    </table>
+<br>
+
+    <table border = "2">
+        <caption>Nome das Loucas</caption>
+        <thead><!--mais semântico-->
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>CPF</th>
+                <th>Sexo</th> 
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Denise</td>
+                <td rowspan="2">00</td><!--rowspan mescla a célula-->
+                <td>000.000.000-oo</td>
+                <td>F</td>
+            </tr>
+            <tr>
+                <td>Denise</td>
+                <td>00</td>
+                <td>000.000.000-oo</td>
+                <td>F</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan ="4"> Esta é uma nota de rodapé, entendeu?! </td><!-- colspan mescla a linha--><!-- rowspan é para a coluna-->
+        </tfoot>
+
+    </table>
+</body>
+</html>
